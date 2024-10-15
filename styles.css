@@ -228,3 +228,64 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+#resume {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #fff;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#resume h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+    animation: fadeIn 2s ease-in-out;
+    margin-right: 80%;
+}
+
+#resume p {
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: 2rem;
+    animation: fadeIn 2.5s ease-in-out;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background-color: #61dafb;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    animation: bounceIn 1.5s ease;
+}
+
+.btn:hover {
+    background-color: #21a1f1;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Animaciones */
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.95);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
